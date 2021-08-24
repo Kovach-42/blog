@@ -2,13 +2,13 @@
 const express = require('express');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
+require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 5000;
 
 // database connection
-const mongoURI =
-    'mongodb+srv://admin-morton:test123@cluster0.bryzg.mongodb.net/blogDB';
+const mongoURI = process.env.MONGOUI;
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // create schema
