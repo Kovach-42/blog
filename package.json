@@ -1,0 +1,36 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "author": "Morton Musonda",
+    "license": "ISC",
+    "dependencies": {
+        "admin-bro": "^4.0.1",
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-formidable": "^1.2.0",
+        "lodash": "^4.17.21",
+        "mongoose": "^5.13.7"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.8.1",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-wesbos": "^1.0.1",
+        "eslint-plugin-html": "^6.1.0",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-jsx-a11y": "^6.3.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.6",
+        "eslint-plugin-react-hooks": "^4.1.2",
+        "nodemon": "^2.0.12",
+        "prettier": "^2.1.1"
+    }
+}

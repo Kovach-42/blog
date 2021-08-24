@@ -1,0 +1,40 @@
+<%- include("partials/head"); %>
+
+    <h1>
+        <%=title %>
+    </h1>
+    <p class="article">
+        <%=content %>
+    </p>
+
+  
+    <% if (title == "Food"){%>
+
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/KfB2sx9uCkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			</iframe>
+
+        <% } %>
+            <% if (title == "Technology"){%>
+
+                <iframe width="727" height="409" src="https://www.youtube.com/embed/DoVGbPa0jHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+			    </iframe>
+
+                <% } %>
+
+    <%if (title == "Health"){%>
+
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/O6UedmnRJc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</iframe>
+
+    <% } %>
+    <% if (title == "Literature"){%>
+
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/O6UedmnRJc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+    <% } %>
+    <% if (title == "Music"){%>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/v11OJNEdIn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <% } %>
+<%- include("partials/bottom"); %>
